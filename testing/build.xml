@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="testing">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../eclipse/java-2021-03/eclipse/"/>
+    <property name="junit.output.dir" value="report"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="testing.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="lib/org.apiguardian_1.1.0.v20190826-0900.jar"/>
+        <pathelement location="lib/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+        <pathelement location="lib/org.junit_4.13.0.v20200204-1500.jar"/>
+        <pathelement location="lib/org.junit.jupiter.api_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.params_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.commons_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.engine_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.launcher_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.runner_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.suite.api_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.vintage.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.opentest4j_1.2.0.v20190826-0900.jar"/>
+    </path>
+    <path id="run.Client.classpath">
+        <path refid="testing.classpath"/>
+        <pathelement location="lib/org.apiguardian_1.1.0.v20190826-0900.jar"/>
+        <pathelement location="lib/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+        <pathelement location="lib/org.junit_4.13.0.v20200204-1500.jar"/>
+        <pathelement location="lib/org.junit.jupiter.api_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.params_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.commons_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.engine_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.launcher_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.runner_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.suite.api_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.vintage.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.opentest4j_1.2.0.v20190826-0900.jar"/>
+    </path>
+    <path id="run.TestFunction.classpath">
+        <path refid="testing.classpath"/>
+        <pathelement location="lib/org.apiguardian_1.1.0.v20190826-0900.jar"/>
+        <pathelement location="lib/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+        <pathelement location="lib/org.junit_4.13.0.v20200204-1500.jar"/>
+        <pathelement location="lib/org.junit.jupiter.api_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.jupiter.params_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.commons_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.engine_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.launcher_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.runner_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.platform.suite.api_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.junit.vintage.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="lib/org.opentest4j_1.2.0.v20190826-0900.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="target/classes"/>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.xtend"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="target/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="testing.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Client">
+        <java classname="co.edu.poli.testing.model.Client" failonerror="true" fork="yes">
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Client.classpath"/>
+        </java>
+    </target>
+    <target name="TestFunction">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="co.edu.poli.testing.test.TestFunction" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.TestFunction.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

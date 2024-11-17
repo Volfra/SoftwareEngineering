@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="PGCAM26825" name="co.edu.poli.testing.test.TestFunction" skipped="0" tests="3" time="0.234" timestamp="2022-09-23T03:51:16">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.specification.version" value="15" />
+    <property name="env.USERPROFILE" value="C:\Users\wsoto" />
+    <property name="ant.project.name" value="testing" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="sun.boot.library.path" value="C:\Users\wsoto\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner co.edu.poli.testing.test.TestFunction skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\wsoto\Downloads\git\repository\testing\report\TEST-co.edu.poli.testing.test.TestFunction.xml crashfile=C:\Users\wsoto\Downloads\git\repository\testing\junitvmwatcher7410667479793369099.properties propsfile=C:\Users\wsoto\Downloads\git\repository\testing\junit6454874853159284720.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="ant.file.type.testing" value="file" />
+    <property name="eclipse.pdebuild.templates" value="C:\Users\wsoto\eclipse\java-2021-03\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.1000.v20210130-0813\templates" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2021-01-19" />
+    <property name="java.home" value="C:\Users\wsoto\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\wsoto\Downloads\git\repository\testing" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\wsoto\AppData\Local" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="POLIGRAN" />
+    <property name="env.PROCESSOR_REVISION" value="4e03" />
+    <property name="user.script" value="" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel" />
+    <property name="java.runtime.version" value="15.0.2+7-27" />
+    <property name="user.name" value="wsoto" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.COMPUTERNAME" value="PGCAM26825" />
+    <property name="env.HOMEPATH" value="\Users\wsoto" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="env.APPDATA" value="C:\Users\wsoto\AppData\Roaming" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="java.io.tmpdir" value="C:\Users\wsoto\AppData\Local\Temp\" />
+    <property name="java.version" value="15.0.2" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.Path" value="C:/Users/wsoto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/wsoto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Users\wsoto\AppData\Local\Microsoft\WindowsApps;C:\Users\wsoto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\wsoto\AppData\Local\GitHubDesktop\bin;C:\Users\wsoto\AppData\Local\Programs\Git\cmd;C:\Users\wsoto\AppData\Roaming\npm;c:\users\wsoto\.local\bin;C:\Users\wsoto\Desktop;" />
+    <property name="env.TMP" value="C:\Users\wsoto\AppData\Local\Temp" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="junit.output.dir" value="report" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.11 compiled on July 10 2021" />
+    <property name="java.library.path" value="C:\Users\wsoto\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/wsoto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/wsoto/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Users\wsoto\AppData\Local\Microsoft\WindowsApps;C:\Users\wsoto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\wsoto\AppData\Local\GitHubDesktop\bin;C:\Users\wsoto\AppData\Local\Programs\Git\cmd;C:\Users\wsoto\AppData\Roaming\npm;c:\users\wsoto\.local\bin;C:\Users\wsoto\Desktop;;." />
+    <property name="eclipse.pdebuild.scripts" value="C:\Users\wsoto\eclipse\java-2021-03\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.1000.v20210130-0813\scripts" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.LOGONSERVER" value="\\SRV-RODC" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.path" value="C:\Users\wsoto\Downloads\git\repository\testing\target\classes;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.apiguardian_1.1.0.v20190826-0900.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit_4.13.0.v20200204-1500.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.jupiter.api_5.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.jupiter.engine_5.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.jupiter.params_5.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.platform.commons_1.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.platform.engine_1.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.platform.launcher_1.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.platform.runner_1.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.platform.suite.api_1.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.junit.vintage.engine_5.7.1.v20210222-1948.jar;C:\Users\wsoto\Downloads\git\repository\testing\lib\org.opentest4j_1.2.0.v20190826-0900.jar;C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-launcher.jar;C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant.jar;C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junit.jar;C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junit4.jar" />
+    <property name="env.USERDNSDOMAIN" value="POLIGRAN.EDU.CO" />
+    <property name="source" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="ant.file.testing" value="C:\Users\wsoto\Downloads\git\repository\testing\build.xml" />
+    <property name="user.variant" value="" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="java.vm.specification.version" value="15" />
+    <property name="os.name" value="Windows 10" />
+    <property name="user.country" value="CO" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.USERDOMAIN" value="POLIGRAN" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\wsoto" />
+    <property name="user.language" value="es" />
+    <property name="eclipse.pdebuild.home" value="C:\Users\wsoto\eclipse\java-2021-03\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.1000.v20210130-0813\." />
+    <property name="ant.java.version" value="15" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ANT_HOME" value="C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="ant.file" value="C:\Users\wsoto\Downloads\git\repository\testing\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="ant.project.invoked-targets" value="init,cleanall,build,Client,TestFunction,junitreport" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ECLIPSE_HOME" value="../../../../eclipse/java-2021-03/eclipse/" />
+    <property name="env.ZES_ENABLE_SYSMAN" value="1" />
+    <property name="ant.core.lib" value="C:\Users\wsoto\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="user.dir" value="C:\Users\wsoto\Downloads\git\repository\testing" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.USERNAME" value="wsoto" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="15.0.2+7-27" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.TEMP" value="C:\Users\wsoto\AppData\Local\Temp" />
+    <property name="java.class.version" value="59.0" />
+    <property name="env.OneDrive" value="C:\Users\wsoto\OneDrive" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="co.edu.poli.testing.test.TestFunction" name="test1" time="0.019" />
+  <testcase classname="co.edu.poli.testing.test.TestFunction" name="test2" time="0.01">
+    <failure message="No cumple poscondicion" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No cumple poscondicion
+	at co.edu.poli.testing.model.Function.facto(Function.java:24)
+	at co.edu.poli.testing.test.TestFunction.test2(TestFunction.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="co.edu.poli.testing.test.TestFunction" name="test3" time="0.014" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
